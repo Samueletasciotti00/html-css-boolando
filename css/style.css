@@ -7,7 +7,9 @@
 
 /* NAV BAR SETTINGS */
 #menu-bar{
-    /* DEBUG */
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
     width: 100%;
     min-height: 50px;
     background-color: rgb(255, 105, 0);
@@ -56,7 +58,7 @@ main{
 /* CARDS SETTINGS */
 .cards{
     width: 80%;
-    margin: 50px auto;
+    margin: 100px auto;
     /* FLEX */
     display: flex;
     justify-content: space-around;
@@ -66,9 +68,8 @@ main{
 /* CARDS OVER */
 .items{
     width: 33%;
-    /* DEBUG */
-    border: 1px solid red;
     min-height: 500px;
+    position: relative;
 }
 
 
@@ -176,4 +177,34 @@ footer{
     width: 80%;
     margin: auto;
     padding-top: 20px;
+}
+
+/* DISCOUNT */
+.price{
+    width: 50px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 20%;
+}
+
+
+.sostenibility{
+    width: 100px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    left: 60px;
+}
+
+#lonely{
+    left: 0;
+}
+
+.money{
+   color: red;
 }
