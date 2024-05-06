@@ -64,11 +64,25 @@ main{
 }
 
 /* CARDS OVER */
-.items:hover #left-top{
-    display: none;
+.items{
+    width: 33%;
+    /* DEBUG */
+    border: 1px solid red;
+    min-height: 500px;
 }
 
+
+
+
+
+/* Image top left */
+
+/* 1 top img */
 #left-top-b{
+    display: none;
+}
+/* hover */
+.items:hover #left-top{
     display: none;
 }
 
@@ -76,12 +90,36 @@ main{
     display: inline;
 }
 
-.items{
-    width: 33%;
-    /* DEBUG */
-    border: 1px solid red;
-    min-height: 500px;
+/* 2 top img */
+#center-top-b{
+    display: none;
 }
+/* hover */
+.items:hover #center-top{
+    display: none;
+}
+
+.items:hover #center-top-b{
+    display: inline;
+}
+
+/* 3 top img */
+#right-top-b{
+    display: none;
+}
+/* hover */
+.items:hover #right-top{
+    display: none;
+}
+
+.items:hover #right-top-b{
+    display: inline;
+}
+
+
+
+
+
 
 /* FOOTER SETTINGS */
 footer{
