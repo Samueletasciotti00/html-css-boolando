@@ -75,7 +75,7 @@ main{
 
 
 
-/* Image top left */
+/* IMMAGE TOP */
 
 /* 1 top img */
 #left-top-b{
@@ -116,9 +116,47 @@ main{
     display: inline;
 }
 
+/* IMMAGE DOWN */
 
 
+/* 1 down img */
+#left-down-b{
+    display: none;
+}
+/* hover */
+.items:hover #left-down{
+    display: none;
+}
 
+.items:hover #left-down-b{
+    display: inline;
+}
+
+/* 2 down img */
+#center-down-b{
+    display: none;
+}
+/* hover */
+.items:hover #center-down{
+    display: none;
+}
+
+.items:hover #center-down-b{
+    display: inline;
+}
+
+/* 3 down img */
+#right-down-b{
+    display: none;
+}
+/* hover */
+.items:hover #right-down{
+    display: none;
+}
+
+.items:hover #right-down-b{
+    display: inline;
+}
 
 
 /* FOOTER SETTINGS */
