@@ -63,6 +63,18 @@ main{
     align-items: center;
 }
 
+/* CARDS OVER */
+.items:hover #left-top{
+    display: none;
+}
+
+#left-top-b{
+    display: none;
+}
+
+.items:hover #left-top-b{
+    display: inline;
+}
 
 .items{
     width: 33%;
@@ -75,7 +87,7 @@ main{
 footer{
     background-color: black;
     color:white;
-    padding: auto;
+    padding: 20px 120px;
     /* FLEX */
     display: flex;
     align-items: center;
