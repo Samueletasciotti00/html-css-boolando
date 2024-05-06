@@ -1,0 +1,49 @@
+/* DEFAULT SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV BAR SETTINGS */
+#menu-bar{
+    /* DEBUG */
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(255, 105, 0);
+    /* FLEX */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-items{
+    width: 33%;
+    overflow: hidden;
+}
+
+
+/* GENDER MENU */
+.bar-items ul{
+    list-style: none;
+    padding: 0 120px;
+    color: white;
+    /* FLEX */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LOGO SETTINGS */
+img{
+  width: 100%;  
+}
+
+#immage{
+    width: 25%;
+    margin: auto;
+}
+
+/* ICONS SETTINGS */
+#icons{
+    padding-left: 300px;
+}
