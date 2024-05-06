@@ -47,3 +47,27 @@ img{
 #icons{
     padding-left: 300px;
 }
+
+/* MAIN SETTINGS */
+main{
+    margin-top: 40px;
+}
+
+/* CARDS SETTINGS */
+.cards{
+    width: 80%;
+    margin: 50px auto;
+    /* FLEX */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.items{
+    width: 33%;
+    /* DEBUG */
+    background-color: gray;
+    border: 1px solid red;
+    min-height: 500px;
+}
