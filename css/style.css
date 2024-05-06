@@ -67,7 +67,25 @@ main{
 .items{
     width: 33%;
     /* DEBUG */
-    background-color: gray;
     border: 1px solid red;
     min-height: 500px;
+}
+
+/* FOOTER SETTINGS */
+footer{
+    background-color: black;
+    color:white;
+    padding: auto;
+    /* FLEX */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#ft-menu{
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
 }
