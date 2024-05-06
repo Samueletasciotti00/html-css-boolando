@@ -206,5 +206,13 @@ footer{
 }
 
 .money{
-   color: red;
+    color: red;
+}
+
+.hart{
+    position: absolute;
+    display: none;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
 }
